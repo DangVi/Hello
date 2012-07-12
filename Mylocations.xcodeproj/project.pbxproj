@@ -12,6 +12,8 @@
 		3B43031D155CEC65001F1822 /* bt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B43031C155CEC65001F1822 /* bt.png */; };
 		3B43031F155CEF8B001F1822 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B43031E155CEF8B001F1822 /* MapKit.framework */; };
 		3B430322155CEFDD001F1822 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B430321155CEFDD001F1822 /* MapViewController.m */; };
+		3B6248D715AEAE730027F92A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6248D615AEAE730027F92A /* Accelerate.framework */; };
+		3B6248DB15AEAE9B0027F92A /* exam.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6248DA15AEAE9B0027F92A /* exam.m */; };
 		3B8D74CF1560ECF700CF7C70 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D74CE1560ECF700CF7C70 /* UIImage+Resize.m */; };
 		3B8D74D31560F2F900CF7C70 /* NSMutableString+AddText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D74D21560F2F900CF7C70 /* NSMutableString+AddText.m */; };
 		3B8D74DC1560FD9700CF7C70 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8D74D61560FD9500CF7C70 /* Icon-72.png */; };
@@ -63,6 +65,9 @@
 		3B43031E155CEF8B001F1822 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3B430320155CEFDD001F1822 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		3B430321155CEFDD001F1822 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3B6248D615AEAE730027F92A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3B6248D915AEAE9B0027F92A /* exam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exam.h; sourceTree = "<group>"; };
+		3B6248DA15AEAE9B0027F92A /* exam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exam.m; sourceTree = "<group>"; };
 		3B8D74CD1560ECF700CF7C70 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		3B8D74CE1560ECF700CF7C70 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		3B8D74D11560F2F800CF7C70 /* NSMutableString+AddText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AddText.h"; sourceTree = "<group>"; };
@@ -123,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6248D715AEAE730027F92A /* Accelerate.framework in Frameworks */,
 				3B8D75031561F24B00CF7C70 /* AudioToolbox.framework in Frameworks */,
 				3B43031F155CEF8B001F1822 /* MapKit.framework in Frameworks */,
 				3B924FE9155A1AD200FE1C73 /* CoreData.framework in Frameworks */,
@@ -171,6 +177,8 @@
 				3B430301155B805D001F1822 /* LocationsViewController.m */,
 				3B430320155CEFDD001F1822 /* MapViewController.h */,
 				3B430321155CEFDD001F1822 /* MapViewController.m */,
+				3B6248D915AEAE9B0027F92A /* exam.h */,
+				3B6248DA15AEAE9B0027F92A /* exam.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 		3BCA4F331557ACE20087E3EE = {
 			isa = PBXGroup;
 			children = (
+				3B6248D615AEAE730027F92A /* Accelerate.framework */,
 				3BCA4F481557ACE20087E3EE /* Mylocations */,
 				3BCA4F411557ACE20087E3EE /* Frameworks */,
 				3BCA4F3F1557ACE20087E3EE /* Products */,
@@ -381,6 +390,7 @@
 				3B430322155CEFDD001F1822 /* MapViewController.m in Sources */,
 				3B8D74CF1560ECF700CF7C70 /* UIImage+Resize.m in Sources */,
 				3B8D74D31560F2F900CF7C70 /* NSMutableString+AddText.m in Sources */,
+				3B6248DB15AEAE9B0027F92A /* exam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

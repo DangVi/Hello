@@ -215,7 +215,6 @@
 		3BCA4F331557ACE20087E3EE = {
 			isa = PBXGroup;
 			children = (
-				3B6248D615AEAE730027F92A /* Accelerate.framework */,
 				3BCA4F481557ACE20087E3EE /* Mylocations */,
 				3BCA4F411557ACE20087E3EE /* Frameworks */,
 				3BCA4F3F1557ACE20087E3EE /* Products */,
@@ -233,6 +232,7 @@
 		3BCA4F411557ACE20087E3EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B6248D615AEAE730027F92A /* Accelerate.framework */,
 				3B8D75021561F24A00CF7C70 /* AudioToolbox.framework */,
 				3B43031E155CEF8B001F1822 /* MapKit.framework */,
 				3B924FE8155A1AD200FE1C73 /* CoreData.framework */,
